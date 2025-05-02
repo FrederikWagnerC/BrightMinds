@@ -11,6 +11,7 @@ import { VideoPage } from './pages/video/video.page';
 import './App.scss';
 import { ProfilePage } from './pages/profile/profile.page';
 import { OutletComponent } from './components/outlet/outlet.component';
+import { MainWrapper } from './components/mainWrapper/mainWrapper';
 
 function App() {
   const location = useLocation();
@@ -33,6 +34,7 @@ function App() {
 
   return (
     <>
+      <MainWrapper>
         {showNavigation && <NavigationComponent />}
 
         <main>
@@ -78,6 +80,7 @@ function App() {
             />
           </Routes>
         </main >
+      </MainWrapper>
 
 
     </>

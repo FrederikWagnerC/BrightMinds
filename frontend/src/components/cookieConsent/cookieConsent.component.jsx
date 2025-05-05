@@ -28,7 +28,7 @@ export const CookieConsent = () => {
 
     return (
         <CookieConsentContainer>
-            <Message>This website uses cookies to enhance the user experience. Do you accept the use of cookies?</Message>
+            <Message>This website uses cookies through Google Analytics to enhance the user experience. Do you accept the use of cookies?</Message>
             <Button onClick={handleAccept}>Accept</Button>
             <Button onClick={handleDecline}>Decline</Button>
         </CookieConsentContainer>
